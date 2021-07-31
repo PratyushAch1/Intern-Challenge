@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Essential Nutrients</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="holder">
+		<div class="card">
+			<div class="photo">
+				<img src="Images/carbs.jfif">
+			</div>
+			<div class="content">
+				<h3>Carbohydrates</h3>
+				<p>Why do you need carbohydrates? Carbohydrates are your body's main source of energy: They help fuel your brain, kidneys, heart muscles, and central nervous system. For instance, fiber is a carbohydrate that aids in digestion, helps you feel full, and keeps blood cholesterol levels in check. To reap the benefits of carbohydrates, you should choose carbohydrates loaded with nutrients. Christie Ferriell, a registered dietitian and nutrition manager at Reid Health, recommends you get at least half of your carbohydrates from whole grains. They are the sugars, starches, and dietary fiber that occur in plant foods and dairy products. Carbohydrates are mainly found in plant foods. They also occur in dairy products in the form of a milk sugar called lactose. They also occur in dairy products in the form of a milk sugar called lactose.</p>
+			</div>
+			<a class="more"></a>
+		</div>
+		<div class="card">
+			<div class="photo">
+				<img src="Images/fats.jfif">
+			</div>
+			<div class="content">
+				<h3>Fats</h3>
+				<p>Dietary fats are essential for maintaining good overall health, especially as you age. "Your body needs a regular intake of fat," says Vasanti Malik, a research scientist with the Department of Nutrition at Harvard's T.H. Chan School of Public Health. "Fat helps give your body energy, protects your organs, supports cell growth, keeps cholesterol and blood pressure under control, and helps your body absorb vital nutrients. When you focus too much on cutting out all fat, you can actually deprive your body of what it needs most." They are the sugars, starches, and dietary fiber that occur in plant foods and dairy products. Carbohydrates are mainly found in plant foods. They also occur in dairy products in the form of a milk sugar called lactose.</p>
+			</div>
+			<a class="more"></a>
+
+		</div>
+		<div class="card">
+			<div class="photo">
+				<img src="Images/protein.jfif">
+			</div>
+			<div class="content">
+				<h3>Protein</h3>
+				<p>Protein foods are broken down into parts called amino acids during digestion. The human body needs a number of amino acids in large enough amounts to maintain good health.Amino acids are found in animal sources such as meats, milk, fish, and eggs. They are also found in plant sources such as soy, beans, legumes, nut butters, and some grains (such as wheat germ and quinoa). You do not need to eat animal products to get all the protein you need in your diet. They are the sugars, starches, and dietary fiber that occur in plant foods and dairy products. Carbohydrates are mainly found in plant foods. They also occur in dairy products in the form of a milk sugar called lactose.</p>
+			</div>
+			<a class="more"></a>
+
+		</div>
+	</div>
+	<script>
+		let more = document.querySelectorAll('.more');
+		for(let i=0; i<more.length; i++){
+			more[i].addEventListener('click', function(){
+				more[i].parentNode.classList.toggle('active')
+			})
+		}
+	</script>
+
+</body>
+</html>
