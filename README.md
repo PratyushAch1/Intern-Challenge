@@ -1,2 +1,3 @@
 # Intern-Challenge
  
+The project is copmleted using HTML, CSS and JavaScript. The entire project consists of an indel.html file, a styles.css file and a folder which contains images. The html file includes three cards which hold the information of essential nutrients like carbohydrate, fats and protein. At first glance, the information in the cards seem very incomplete and blurry in the bottom but once you press the read more button, the entire information of the card can be viewed. The card can be sent to its initial stage by pressing the read less button. The cards also hold images of the nutrients and are responsive.
